@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--<dimen name="game_height">@dimen/y426</dimen>-->
+
+    <!--默认游戏高度-->
+    <dimen name="game_height">206dp</dimen>
+
+    <!--设置子弹和炮的旋转点-->
+    <dimen name="rotation_point">4dp</dimen>
+    <dimen name="rotation_point_bullet">7dp</dimen>
+
+
+    <!-- 三条 航线-->
+    <dimen name="track_one">10dp</dimen>
+    <dimen name="track_two">65dp</dimen>
+    <dimen name="track_three">120dp</dimen>
+
+    <!--鲨鱼出现的 航线-->
+    <dimen name="track_shark_one">3dp</dimen>
+    <dimen name="track_shark_two">50dp</dimen>
+    <dimen name="track_shark_three">100dp</dimen>
+
+    <!--鱼的游速-->
+    <dimen name="fish_swimming">2.5dp</dimen>
+    <dimen name="fish_swimming2">1.5dp</dimen>
+
+    <!--飞金币 结束的位置-->
+    <dimen name="flygold_initx">2dp</dimen>
+    <dimen name="flygold_x">40dp</dimen>
+    <dimen name="flygold_y">183dp</dimen>
+
+    <!--设置金币大小-->
+    <dimen name="flygoldwh">15dp</dimen>
+
+</resources>

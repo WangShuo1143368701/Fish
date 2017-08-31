@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_fly_money"
+    android:layout_width="match_parent"
+    android:layout_height="206dp">
+
+
+    <com.qijing.fish.GameSurfaceView
+        android:id="@+id/gameSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:id="@+id/img_bullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/img_artillery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-10dp"
+            android:src="@mipmap/fishing_joy_cannon_light_2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/fishing_joy_cannon_chassis_3" />
+
+        <ImageView
+            android:id="@+id/img_artillery"
+            android:layout_width="50dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/fishing_joy_cannon_11" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/fishing_joy_under_bg" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@mipmap/fishing_joy_under_gold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="9dp"
+                android:gravity="center"
+                android:src="@mipmap/fishing_joy_under_bg"
+                android:text="12B"
+                android:textColor="#ffd300"
+                android:textSize="6sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="9dp"
+                android:src="@mipmap/fishing_joy_under_add" />
+
+            <ImageView
+                android:id="@+id/img_joyodd"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+
+                android:background="@drawable/fishing_joy_odds" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>
